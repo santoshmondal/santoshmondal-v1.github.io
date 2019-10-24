@@ -1,1 +1,26 @@
-Hello World
+<nav class="sticky-top navbar navbar-dark bg-dark">
+  <span class="navbar-brand">Brand</span>
+</nav>
+
+<div class="container-fluid">
+  <div class="row bg-secondary" style="height:25vh;">
+    <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+      <div class="h3 text-light">Welcome to My Page</div>
+      <div class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-1">
+    <div class="col-12 col-md-4 mt-2" *ngFor="let item of [].constructor(10)">
+      <img src="https://picsum.photos/200/300" style="height:300px; width:100%; object-fit:cover;" alt="">
+      <div class="h5">Image Description</div>
+      <div class="h6" style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi neque suscipit sequi nostrum incidunt, nesciunt hic maiores excepturi, exercitationem eveniet velit laudantium. Facere, pariatur! Consectetur unde cupiditate a non placeat.</div>
+      <div>
+        <button class="btn btn-sm btn-secondary mr-1">SUBSCRBIE ME</button>
+        <button class="btn btn-sm btn-secondary">FOLLOW ME</button>
+      </div>
+    </div>
+  </div>
+</div>
